@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Web Reference Card</h1>
+    <div class="info-tables">
+        <h2>Table Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span> &lt;table&gt;</span>
+                        </td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&lt;thead&gt;</span>
+                        </td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span> &lt;tbody&gt; </span>
+                        </td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                &lt;tr&gt;
+                            </span>
+                        </td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                &lt;td&gt;
+                            </span>
+                        </td>
+                        <td>Table Data</td>
+                        <td>Defines a standard data cell in an HTML table.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>
+                                &lt;tfoot&gt;
+                            </span>
+                        </td>
+                        <td>Table Foot</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+                </tbody>
+                <h2></h2>
+            </table>
+    </div>
+    <div class="info-tables">
+        <h2>Position Attribute (CSS)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span>static</span></td>
+                    <td>Default value. Elements render in order, as they appear in the document flow</td>
+                </tr>
+                <tr>
+                    <td><span>absolute</span></td>
+                    <td>The element is positioned relative to its first positioned (not static) ancestor element</td>
+                </tr>
+                <tr>
+                    <td><span>fixed</span></td>
+                    <td>The element is positioned relative to the browser window</td>
+                </tr>
+                <tr>
+                    <td><span>relative</span></td>
+                    <td>The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position</td>
+                </tr>
+                <tr>
+                    <td><span>sticky</span></td>
+                    <td>The element is positioned based on the user's scroll position
+                        A sticky element toggles between <span>relative</span> and <span>fixed</span>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+                        <strong>Note:</strong> Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix.</td>
+                </tr>
+                <tr>
+                    <td><span>initial</span></td>
+                    <td>Sets this property to its default value.</td>
+                </tr>
+                <tr>
+                    <td><span>inherit</span></td>
+                    <td>Inherits this property from its parent element.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
